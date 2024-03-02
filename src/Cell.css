@@ -1,0 +1,15 @@
+.Cell {
+  height: 100px;
+  width: 100px;
+  background-color: darkgray;
+  cursor: pointer;
+  border: 1px solid darkgray;
+}
+
+.Cell:hover {
+  filter: drop-shadow(3px 5px 10px rgba(0,0,0,0.2));
+}
+
+.Cell-lit {
+  background-color: white;
+}
